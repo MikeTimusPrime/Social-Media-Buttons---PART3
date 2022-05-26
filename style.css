@@ -1,0 +1,113 @@
+body {
+  background-color: #80898d;
+  height: 100%;
+}
+
+body div {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: translateX(425px);
+          transform: translateX(425px);
+}
+
+body li {
+  padding: 10px;
+  list-style-type: none;
+}
+
+body .text {
+  text-decoration: underline;
+  color: white;
+  padding: 10px;
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+body .img {
+  width: 10%;
+}
+
+body .blog {
+  background-color: #e17b77;
+}
+
+body .blog:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+body .twitter {
+  background-color: #00aced;
+}
+
+body .twitter:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+body .linkedin {
+  background-color: #007bb6;
+}
+
+body .linkedin:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+body .facebook {
+  background-color: #3b5998;
+}
+
+body .facebook:hover {
+  cursor: pointer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+body .github {
+  background-color: #333;
+}
+
+body .github:hover {
+  cursor: pointer;
+  cursor: pointer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: social;
+          animation-name: social;
+}
+
+@-webkit-keyframes social {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+}
+
+@keyframes social {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(-200px);
+            transform: translateX(-200px);
+  }
+}
+/*# sourceMappingURL=style.css.map */

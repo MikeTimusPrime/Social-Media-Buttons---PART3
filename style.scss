@@ -1,0 +1,74 @@
+body {
+        background-color: #80898d;
+        height: 100%;
+
+    div {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        transform: translateX(425px);
+        
+    }
+    li {
+        padding: 10px;
+        list-style-type: none;
+        }
+    
+    .text {
+        text-decoration: underline;
+        color: white;
+        padding: 10px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+    }
+
+    .img {
+        width: 10%;
+    }
+    .blog {
+        
+        background-color: #e17b77;
+        &:hover {
+            cursor: pointer;
+            animation-duration: 1s;
+            animation-name: social;
+            }
+    }
+    .twitter {
+        background-color: #00aced;
+        &:hover {
+            cursor: pointer;
+            animation-duration: 1s;
+            animation-name: social;
+        }
+    }
+    .linkedin {
+        background-color: #007bb6;
+        &:hover {
+            cursor: pointer;
+            animation-duration: 1s;
+            animation-name: social;
+    }
+}
+    .facebook {
+        background-color: #3b5998;
+        &:hover {
+            cursor: pointer;
+            animation-duration: 1s;
+            animation-name: social;
+    }
+}
+    .github {
+        background-color: #333;
+         &:hover {
+            cursor: pointer;
+            cursor: pointer;
+            animation-duration: 1s;
+             animation-name: social;
+    }
+  }
+}
+@keyframes social{
+    from{ transform: translateX(0)}
+    to{ transform: translateX(-200px)}
+}
